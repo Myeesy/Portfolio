@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моє Портфоліо</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e4e2e2;
+      color: #333;
+    }
+
+    header {
+      background-color: #000408;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #010407;
+    }
+
+    .project {
+      border-bottom: 1px solid #eee;
+      padding: 10px 0;
+    }
+
+    .project:last-child {
+      border-bottom: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      color: #666;
+    }
+
+    button {
+      background-color: #000000;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #010910;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pointless portfolio!</h1>
+    <p>I know nothing about making web sites lol i just asked chat gpt</p>
+  </header>
+
+  <nav>
+    <a href="#about">Про мене</a>
+    <a href="#projects">Проєкти</a>
+    <a href="#contact">Контакти</a>
+  </nav>
+
+  <section id="about">
+    <h2>**burp**</h2>
+    <p>Anyway here's what i made.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My projects</h2>
+    <div class="project">
+      <h3>Whatever this is</h3>
+      <p>The most pointlss website in the world.</p>
+      <button onclick="window.open('file:///C:/Users/home/Desktop/project%202/Index.html')">Download 10 malwares to your pc</button>
+    </div>
+    <div class="project">
+      <h3>This is uh...</h3>
+      <p>Mega cool game i made by uding chat gpt.</p>
+      <button onclick="window.open('https://myeesy.github.io/Run-from-MGE-brother-epic-escape-advanced/')">Download 50 malwares to your pc</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакти</h2>
+    <p>Email: rianisdang.com</p>
+    <p>Телефон: +380-097-121-37-93</p>
+    <button onclick="showMessage()">Dont email me</button>
+  </section>
+
+  <footer>
+    &copy; 1700 my rights are not protected.
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Дякую за інтерес! Зв'яжіться зі мною поштою або телефоном.");
+    }
+  </script>
+
+</body>
+</html>
